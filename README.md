@@ -1,6 +1,8 @@
 # PLEASE READ
 Extra features include : Material Theme picker, voice search
-Created pwa command to build and run = npm run start-pwa
+
+#BUILD/RUN PWA
+npm run start-pwa
 
 # MovieSearch
 
