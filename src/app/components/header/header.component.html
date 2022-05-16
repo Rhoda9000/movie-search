@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <button mat-icon-button>
+            <mat-icon>video_label</mat-icon>
+        </button>
+        <span>Movie Search</span>
+        <span class="spacer"></span>
+        <button *ngIf="!isUserSpeaking" (click)="startRecording()" mat-icon-button>
+            <mat-icon>mic</mat-icon>
+        </button>
+        <button style="color: rgb(85, 241, 124);" *ngIf="isUserSpeaking" (click)="stopRecording()" mat-icon-button>
+            <mat-icon>mic</mat-icon>
+        </button>
+        <app-menu [options]="colorOptions | async" (themeChange)="themeChangeHandler($event)">
+        </app-menu>
+    </mat-toolbar-row>
+</mat-toolbar>

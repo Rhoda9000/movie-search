@@ -1,0 +1,64 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.app-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search {
+  width: 100%;
+}
+
+.heading-text {
+  font-size: 50px;
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+.sub-container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.movie-card {
+  max-width: 400px;
+}
+
+.results {
+  padding: 20px 5px 20px 5px;
+}
+
+mat-grid-tile {
+  background: lightblue;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row {
+  margin: 0 -5px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

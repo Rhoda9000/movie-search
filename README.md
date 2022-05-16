@@ -1,3 +1,7 @@
+# PLEASE READ
+Extra features include : Material Theme picker, voice search
+Created pwa command to build and run = npm run start-pwa
+
 # MovieSearch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
